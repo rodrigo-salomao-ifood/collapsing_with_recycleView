@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:animateLayoutChanges="true"
     tools:context=".ExpandedFragment">
 
     <TextView
@@ -12,9 +13,11 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="12dp"
-        android:text="EXPANDED" />
+        android:textColor="@color/design_default_color_on_primary"
+        android:text="Click on Me" />
 
     <LinearLayout
+        android:id="@+id/expanded_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
