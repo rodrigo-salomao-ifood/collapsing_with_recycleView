@@ -13,13 +13,15 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="12dp"
+        android:textSize="16sp"
         android:textColor="@color/design_default_color_on_primary"
-        android:text="Click on Me" />
+        android:text="CLICK ON ME" />
 
     <LinearLayout
         android:id="@+id/expanded_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:orientation="vertical">
 
         <TextView
